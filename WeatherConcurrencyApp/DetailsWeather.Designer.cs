@@ -46,11 +46,11 @@ namespace WeatherConcurrencyApp
             // lblDetailValue
             // 
             this.lblDetailValue.AutoSize = true;
-            this.lblDetailValue.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDetailValue.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold);
             this.lblDetailValue.Location = new System.Drawing.Point(25, 54);
             this.lblDetailValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetailValue.Name = "lblDetailValue";
-            this.lblDetailValue.Size = new System.Drawing.Size(74, 25);
+            this.lblDetailValue.Size = new System.Drawing.Size(51, 17);
             this.lblDetailValue.TabIndex = 1;
             this.lblDetailValue.Text = "Value";
             // 
@@ -60,7 +60,7 @@ namespace WeatherConcurrencyApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lblDetailValue);
             this.Controls.Add(this.lblDetail);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DetailsWeather";
             this.Size = new System.Drawing.Size(141, 91);
             this.ResumeLayout(false);
