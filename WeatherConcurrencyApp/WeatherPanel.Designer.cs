@@ -42,9 +42,10 @@ namespace WeatherConcurrencyApp
             this.lblCity.AutoSize = true;
             this.lblCity.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblCity.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCity.Location = new System.Drawing.Point(3, 0);
+            this.lblCity.Location = new System.Drawing.Point(4, 0);
+            this.lblCity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCity.Name = "lblCity";
-            this.lblCity.Size = new System.Drawing.Size(313, 59);
+            this.lblCity.Size = new System.Drawing.Size(417, 72);
             this.lblCity.TabIndex = 0;
             this.lblCity.Text = "City";
             this.lblCity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -54,9 +55,10 @@ namespace WeatherConcurrencyApp
             this.lblTemperature.AutoSize = true;
             this.lblTemperature.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTemperature.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemperature.Location = new System.Drawing.Point(3, 59);
+            this.lblTemperature.Location = new System.Drawing.Point(4, 72);
+            this.lblTemperature.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTemperature.Name = "lblTemperature";
-            this.lblTemperature.Size = new System.Drawing.Size(313, 59);
+            this.lblTemperature.Size = new System.Drawing.Size(417, 72);
             this.lblTemperature.TabIndex = 1;
             this.lblTemperature.Text = "30";
             this.lblTemperature.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,20 +66,21 @@ namespace WeatherConcurrencyApp
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 425F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel1.Controls.Add(this.lblTemperature, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblCity, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblWeather, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(319, 138);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(425, 170);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // lblWeather
@@ -85,9 +88,10 @@ namespace WeatherConcurrencyApp
             this.lblWeather.AutoSize = true;
             this.lblWeather.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblWeather.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeather.Location = new System.Drawing.Point(3, 118);
+            this.lblWeather.Location = new System.Drawing.Point(4, 144);
+            this.lblWeather.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWeather.Name = "lblWeather";
-            this.lblWeather.Size = new System.Drawing.Size(313, 20);
+            this.lblWeather.Size = new System.Drawing.Size(417, 26);
             this.lblWeather.TabIndex = 2;
             this.lblWeather.Text = "lblWeather";
             this.lblWeather.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,19 +99,22 @@ namespace WeatherConcurrencyApp
             // flpContent
             // 
             this.flpContent.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flpContent.Location = new System.Drawing.Point(0, 144);
+            this.flpContent.Location = new System.Drawing.Point(0, 177);
+            this.flpContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flpContent.Name = "flpContent";
-            this.flpContent.Size = new System.Drawing.Size(319, 407);
+            this.flpContent.Size = new System.Drawing.Size(425, 501);
             this.flpContent.TabIndex = 3;
             // 
             // WeatherPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.flpContent);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "WeatherPanel";
-            this.Size = new System.Drawing.Size(319, 551);
+            this.Size = new System.Drawing.Size(425, 678);
+            this.Load += new System.EventHandler(this.WeatherPanel_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
