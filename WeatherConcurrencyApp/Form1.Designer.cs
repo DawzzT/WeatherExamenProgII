@@ -32,6 +32,7 @@ namespace WeatherConcurrencyApp
             this.flpContent = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnOk = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +47,7 @@ namespace WeatherConcurrencyApp
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.btnOk);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -63,6 +65,13 @@ namespace WeatherConcurrencyApp
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(57, 37);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 1;
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -73,6 +82,7 @@ namespace WeatherConcurrencyApp
             this.Name = "FrmMain";
             this.Text = "Weather Async App";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -82,6 +92,7 @@ namespace WeatherConcurrencyApp
         private System.Windows.Forms.FlowLayoutPanel flpContent;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnOk;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

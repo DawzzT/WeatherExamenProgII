@@ -36,33 +36,31 @@ namespace WeatherConcurrencyApp
             // lblDetail
             // 
             this.lblDetail.AutoSize = true;
-            this.lblDetail.Location = new System.Drawing.Point(4, 11);
-            this.lblDetail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDetail.Location = new System.Drawing.Point(16, 11);
             this.lblDetail.Name = "lblDetail";
-            this.lblDetail.Size = new System.Drawing.Size(98, 17);
+            this.lblDetail.Size = new System.Drawing.Size(75, 13);
             this.lblDetail.TabIndex = 0;
             this.lblDetail.Text = "DetailWeather";
+            this.lblDetail.Click += new System.EventHandler(this.lblDetail_Click);
             // 
             // lblDetailValue
             // 
             this.lblDetailValue.AutoSize = true;
             this.lblDetailValue.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold);
-            this.lblDetailValue.Location = new System.Drawing.Point(25, 54);
-            this.lblDetailValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDetailValue.Location = new System.Drawing.Point(31, 42);
             this.lblDetailValue.Name = "lblDetailValue";
-            this.lblDetailValue.Size = new System.Drawing.Size(51, 17);
+            this.lblDetailValue.Size = new System.Drawing.Size(43, 13);
             this.lblDetailValue.TabIndex = 1;
             this.lblDetailValue.Text = "Value";
             // 
             // DetailsWeather
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lblDetailValue);
             this.Controls.Add(this.lblDetail);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DetailsWeather";
-            this.Size = new System.Drawing.Size(141, 91);
+            this.Size = new System.Drawing.Size(106, 74);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,5 +16,10 @@ namespace WeatherConcurrencyApp
         {
             InitializeComponent();
         }
+
+        private void lblDetail_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

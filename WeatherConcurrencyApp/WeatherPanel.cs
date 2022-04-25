@@ -19,57 +19,55 @@ namespace WeatherConcurrencyApp
 
         private void WeatherPanel_Load(object sender, EventArgs e)
         {
-            DetailsWeather dw1 = new DetailsWeather();
-            dw1.lblDetail.Text = "lon";
-            flpContent.Controls.Add(dw1);
+            
+            dtwLon.lblDetail.Text = "Lon";
+            dtwLat.lblDetail.Text = "Lat";
+            dtwFeelsLike.lblDetail.Text = "Feels_like";
+            dtwTempMin.lblDetail.Text = "Temp_min";
+            dtwTempMax.lblDetail.Text = "Temp_max";
+            dtwPressure.lblDetail.Text = "Pressure";
+            dtwHumidity.lblDetail.Text = "Humidity";
+            dtwVissibility.lblDetail.Text = "Visibility";
+            dtwSpeed.lblDetail.Text = "Speed";
+            dtwSunrise.lblDetail.Text = "Sunrise";
+            dtwSunset.lblDetail.Text = "Sunset";
+            dtwTimeZone.lblDetail.Text = "Timezone";
+            
+        }
 
-            DetailsWeather dw2 = new DetailsWeather();
-            dw2.lblDetail.Text = "lat";
-            flpContent.Controls.Add(dw2);
+        private void flpContent_Paint(object sender, PaintEventArgs e)
+        {
 
-            DetailsWeather dw3 = new DetailsWeather();
-            dw3.lblDetail.Text = "temp";
-            flpContent.Controls.Add(dw3);
+        }
 
-            DetailsWeather dw4 = new DetailsWeather();
-            dw4.lblDetail.Text = "feels_like";
-            flpContent.Controls.Add(dw4);
+        private void lblTemperature_Click(object sender, EventArgs e)
+        {
 
-            DetailsWeather dw5 = new DetailsWeather();
-            dw5.lblDetail.Text = "temp_min";
-            flpContent.Controls.Add(dw5);
+        }
 
-            DetailsWeather dw6 = new DetailsWeather();
-            dw6.lblDetail.Text = "temp_max";
-            flpContent.Controls.Add(dw6);
+        private void detailsWeather2_Load(object sender, EventArgs e)
+        {
 
-            DetailsWeather dw7 = new DetailsWeather();
-            dw7.lblDetail.Text = "pressure";
-            flpContent.Controls.Add(dw7);
+        }
 
-            DetailsWeather dw8 = new DetailsWeather();
-            dw8.lblDetail.Text = "humidity";
-            flpContent.Controls.Add(dw8);
+        private void detailsWeather9_Load(object sender, EventArgs e)
+        {
 
-            DetailsWeather dw9 = new DetailsWeather();
-            dw9.lblDetail.Text = "visibility";
-            flpContent.Controls.Add(dw9);
+        }
 
-            DetailsWeather dw10 = new DetailsWeather();
-            dw10.lblDetail.Text = "speed";
-            flpContent.Controls.Add(dw10);
+        private void dtwFeelsLike_Load(object sender, EventArgs e)
+        {
 
-            DetailsWeather dw11 = new DetailsWeather();
-            dw11.lblDetail.Text = "sunrise";
-            flpContent.Controls.Add(dw11);
+        }
 
-            DetailsWeather dw12 = new DetailsWeather();
-            dw12.lblDetail.Text = "sunset";
-            flpContent.Controls.Add(dw12);
+        private void lblWeather_Click(object sender, EventArgs e)
+        {
 
-            DetailsWeather dw13 = new DetailsWeather();
-            dw13.lblDetail.Text = "timezone";
-            flpContent.Controls.Add(dw13);
+        }
+
+        private void lblCity_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
