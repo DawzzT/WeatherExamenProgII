@@ -8,6 +8,7 @@ namespace WeatherConcurrentApp.Domain.Interfaces
 {
     public interface IHttpOpenWeatherClient
     {
-       Task<OpenWeather> GetWeatherByCityNameAsync(string city);
+       
+        Task<HistoricalWeatherData> GetWeatherByCityNameAsync(string city);
     }
 }
