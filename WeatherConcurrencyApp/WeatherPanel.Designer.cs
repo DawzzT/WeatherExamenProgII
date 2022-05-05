@@ -45,7 +45,7 @@ namespace WeatherConcurrencyApp
             this.pictureBox1.Location = new System.Drawing.Point(19, 5);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 103);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 75);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -74,7 +74,7 @@ namespace WeatherConcurrencyApp
             // 
             this.lblDt.AutoSize = true;
             this.lblDt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDt.Location = new System.Drawing.Point(212, 134);
+            this.lblDt.Location = new System.Drawing.Point(212, 111);
             this.lblDt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDt.Name = "lblDt";
             this.lblDt.Size = new System.Drawing.Size(149, 20);
@@ -84,7 +84,7 @@ namespace WeatherConcurrencyApp
             // lblHumidity
             // 
             this.lblHumidity.AutoSize = true;
-            this.lblHumidity.Location = new System.Drawing.Point(123, 122);
+            this.lblHumidity.Location = new System.Drawing.Point(106, 99);
             this.lblHumidity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHumidity.Name = "lblHumidity";
             this.lblHumidity.Size = new System.Drawing.Size(51, 20);
@@ -94,7 +94,7 @@ namespace WeatherConcurrencyApp
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 122);
+            this.label2.Location = new System.Drawing.Point(15, 99);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 20);
@@ -104,7 +104,7 @@ namespace WeatherConcurrencyApp
             // lblPressure
             // 
             this.lblPressure.AutoSize = true;
-            this.lblPressure.Location = new System.Drawing.Point(123, 160);
+            this.lblPressure.Location = new System.Drawing.Point(106, 137);
             this.lblPressure.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPressure.Name = "lblPressure";
             this.lblPressure.Size = new System.Drawing.Size(51, 20);
@@ -114,7 +114,7 @@ namespace WeatherConcurrencyApp
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 160);
+            this.label4.Location = new System.Drawing.Point(15, 137);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 20);
@@ -136,7 +136,7 @@ namespace WeatherConcurrencyApp
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "WeatherPanel";
-            this.Size = new System.Drawing.Size(384, 197);
+            this.Size = new System.Drawing.Size(384, 165);
             this.Load += new System.EventHandler(this.WeatherPanel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

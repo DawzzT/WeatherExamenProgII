@@ -6,8 +6,9 @@ using WeatherConcurrentApp.Domain.Entities;
 
 namespace WeatherConcurrentApp.Domain.Interfaces
 {
-    public interface IHttpOpenWeatherClient
+    public interface IHttpHistorialWeatherDataClient
     {
-        Task<OpenWeather> GetWeatherByCityNameAsync(string city);
+       
+        Task<HistoricalWeatherData> GetWeatherByCityNameAsync(string city);
     }
 }

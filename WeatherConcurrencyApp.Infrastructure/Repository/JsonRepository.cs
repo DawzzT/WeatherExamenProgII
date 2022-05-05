@@ -16,7 +16,7 @@ namespace WeatherConcurrencyApp.Infrastructure.Repository
         }
         public List<HistoricalWeatherData> JsonhistorialDeserialize()
         {
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<HistoricalWeatherData>>(File.ReadAllText("Weathers.Json"));
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<HistoricalWeatherData>>(File.ReadAllText("Weathers.json"));
         }
     }
 }
